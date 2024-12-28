@@ -1,0 +1,289 @@
+body{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(29, 2, 56) 60%, rgb(71, 5, 137) 100%);
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    bottom: -30px;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Sofia", sans-serif;
+
+    font-size: 25px;
+    
+}
+nav ul li a:hover{
+    color: #eecf05;
+    
+}
+.ul{
+    
+    position: absolute;
+    right: 73%;
+    
+}
+#btn_1{
+    position: absolute;
+    left: 79%;
+    top: 6%;
+    border-radius: 50px;
+    width: 100px;
+    
+}
+#btn_2{
+    position: absolute;
+    left: 87%;
+    top: 6%;
+    border-radius: 50px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    
+}
+.img2{
+    position: absolute;
+    bottom: -5%;
+    left: 3%;
+}
+.let{
+    font-family:"Sofia", sans-serif;
+    color: white;
+    font-size: 130px;
+    position: absolute;
+    right: 6%;
+    top: 230px;
+    text-shadow: 3px 3px 3px #ababab; 
+    
+}
+.let_2{
+    font-family:"Sofia", sans-serif;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    top: 450px;   
+}
+.let3{
+    position: absolute;
+    bottom: -97%;
+    right: 0%;
+}
+.let4{
+    position: absolute;
+    bottom: -190%;
+    left: 6%; 
+}
+.p1{
+    position: absolute;
+    bottom: -60%;
+    left: 7%; 
+    color: white;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+}
+.p2{
+    position: absolute;
+    bottom: -140%;
+    right: 5%; 
+    color: white;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    line-height: 2;
+}
+#btn_3{
+    position: absolute;
+    bottom: -70%;
+    left: 7%;
+}
+#btn_4{
+    position: absolute;
+    bottom: -150%;
+    right: 38%; 
+}
+#btn_3a{
+    position: absolute;
+    bottom: -70%;
+    left: 17.5%;
+}
+#btn_3b{
+    position: absolute;
+    bottom: -70%;
+    left: 22%;
+}
+#btn_3c{
+    position: absolute;
+    bottom: -150%;
+    right: 33.5%;
+}#btn_3d{
+    position: absolute;
+    bottom: -150%;
+    right: 28.9%;
+}
+#si{
+    position: absolute;
+    right: 5%;
+    top: 81%;
+    width: 100px; 
+}
+.img1a{
+  position: absolute;
+  left: 6%;
+  bottom: -270%;
+  display: inline-block;
+  border: 1px solid rgb(255, 193, 8); 
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  padding-bottom: 80px;
+}
+.img2a{
+    position: absolute;
+    left: 54%;
+    bottom: -270%;
+    border: 1px solid rgb(255, 193, 8);  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-bottom: 80px;
+    
+}
+.pa1,.pa2{
+    padding: 12px;
+  
+}
+.pa3,.pa4{
+    padding: 12px;
+}
+#btn_5{
+    position: absolute;
+    bottom: -267%;
+    left: 8%;
+}
+#btn_6{
+    position: absolute;
+    bottom: -267%;
+    left: 56%;
+}
+#btn_7{
+    position: absolute;
+    bottom: -267%;
+    left: 22%; 
+}
+#btn_8{
+    position: absolute;
+    bottom: -267%;
+    left: 70%;
+}
+.color_bar{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    bottom: -370%;
+    left: 0%;
+    background-image:linear-gradient(to right, #000000,#67109d,#3f0469);
+    opacity: 80%;
+}
+.last{
+ position: absolute;
+ bottom: -325%;
+ left: 5%;
+}
+.lett{
+    position: absolute;
+    bottom: -316%;
+    left: 15%;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 193, 8); 
+    font-style: "Sofia", sans-serif;
+}
+hr.new4 {
+    border: 2px solid rgb(255, 198, 11);
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    bottom: -318%;
+  }
+hr.new5 {
+    border: 2px solid rgb(255, 198, 11);
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: -365%;
+}
+hr.new6 {
+    border: 2px solid rgb(255, 198, 11);
+    position: absolute;
+    width: 50%;
+    right: 3%;
+    bottom: -13%;
+}
+hr.new5 {
+    border: 2px solid rgb(255, 198, 11);
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: -365%;
+}
+hr.new7{
+    border: 2px solid rgb(255, 198, 11);
+    position: absolute;
+    width: 50%;
+    left: 3%;
+    bottom: -100%;  
+}
+#btn_9{
+    position: absolute;
+    bottom: -313%;
+    left: 75%; 
+}
+#btn_10{
+    position: absolute;
+    bottom: -313%;
+    left: 80%; 
+}
+#btn_11{
+    position: absolute;
+    bottom: -313%;
+    left: 85%; 
+}
+#btn_12{
+    position: absolute;
+    bottom: -313%;
+    left: 90%; 
+}
+.last_o{
+    position: absolute;
+    bottom: -357%;
+    left: 10%;
+    color: rgb(255, 193, 8);
+
+}
+.last_o1{
+    position: absolute;
+    bottom: -338%;
+    left: 10%;
+    color: rgb(255, 193, 8);
+
+}
